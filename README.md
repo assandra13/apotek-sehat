@@ -107,8 +107,9 @@ npm run dev
 
 # atau
 
+```
 yarn dev
-\`\`\`
+```
 
 Buka [http://localhost:3000](http://localhost:3000) di browser.
 
