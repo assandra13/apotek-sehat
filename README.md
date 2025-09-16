@@ -60,29 +60,32 @@ Sistem informasi berbasis web untuk manajemen apotek yang mencakup pengelolaan s
 
 ### 1. Clone Repository
 
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd apotek-sehat
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
-\`\`\`bash
+```bash
 npm install
+```
 
 # atau
 
+```
 yarn install
-\`\`\`
+```
 
 ### 3. Setup Environment Variables
 
 Buat file `.env.local` dan tambahkan:
-\`\`\`env
+
+```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-\`\`\`
+```
 
 ### 4. Setup Database
 
@@ -98,8 +101,9 @@ SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 
 ### 5. Jalankan Development Server
 
-\`\`\`bash
+```bash
 npm run dev
+```
 
 # atau
 
@@ -168,7 +172,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 
 ## 🗂️ Struktur Project
 
-\`\`\`
+```
 apotek-sehat/
 ├── app/ # Next.js App Router
 │ ├── auth/ # Authentication pages
@@ -188,7 +192,7 @@ apotek-sehat/
 │ └── utils.ts # Utility functions
 ├── scripts/ # Database scripts
 └── README.md
-\`\`\`
+```
 
 ## 🔧 Konfigurasi Database
 
@@ -221,11 +225,11 @@ apotek-sehat/
 
 ### Environment Variables untuk Production
 
-\`\`\`env
+```env
 NEXT_PUBLIC_SUPABASE_URL=your_production_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_production_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_production_service_role_key
-\`\`\`
+```
 
 ## 🔒 Keamanan
 
